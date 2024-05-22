@@ -67,6 +67,8 @@ main{
     display: flex;
     flex-direction: column;
     margin: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 .main__heading {
     font-size: 84px;
@@ -74,6 +76,7 @@ main{
     font-weight: 500;
     font-style: normal;
     margin: 20px;
+   
     
 }
 .main__heading, .main__info  {
@@ -94,6 +97,9 @@ main{
 @media screen and (max-width: 800px) {
     .main__heading {
         font-size: 72px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        
     }
     
 }
@@ -101,6 +107,8 @@ main{
 @media screen and (max-width: 320px) {
     .main__heading {
         font-size: 36px;
+        padding-top: 40px;
+        padding-bottom: 10px;
     }
     .main__info {
         font-size: 12px;
