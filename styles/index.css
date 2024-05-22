@@ -66,13 +66,14 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0px 10px;
+    margin: 20px;
 }
 .main__heading {
     font-size: 84px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin: 20px;
     
 }
 .main__heading, .main__info  {
@@ -111,6 +112,7 @@ main{
     /* width: 100%; */
     display: flex;
     justify-content: center;
+    margin: 40px;
    
 }
 .main-content{
