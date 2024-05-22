@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0 auto;
     background-color: black;
     width: 100%;
@@ -6,5 +6,60 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: ;
+    font-family: "Source Sans", sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 23px;
+    max-width: 1109px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    max-width: 1109px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: row;
+}
+
+.nav__item {
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.layout__main {
+    color: white;
+}
+
+.main__heading {
+    font-size: 84px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.main__info {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
