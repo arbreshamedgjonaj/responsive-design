@@ -196,6 +196,10 @@ main {
         display: block;
         text-align: left;
     }
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .info {
