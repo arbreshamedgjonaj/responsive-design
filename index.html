@@ -37,19 +37,10 @@
                
             </nav>
         </div>
-       
+        
     </header>
     <main>
-        <script>
-            function burgerMenu() {
-                let burger = document.getElementById("nav-bar");
-                if (burger.className === "nav") {
-                burger.className += " responsive";
-                } else {
-                burger.className = "nav";
-                }
-            }
-            </script>
+        
         <div class="main_content">
         <div class="layout__main">
             <h1 class="main__heading">Japan</h1>
@@ -66,6 +57,16 @@
         </picture>
     </div>
 </div>
+<script>
+    function burgerMenu() {
+        let burger = document.getElementById("nav-bar");
+        if (burger.className === "nav") {
+        burger.className += " responsive";
+        } else {
+        burger.className = "nav";
+        }
+    }
+    </script>
     </main>
     
 
