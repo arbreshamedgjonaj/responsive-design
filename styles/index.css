@@ -21,6 +21,10 @@ body {
     align-items: center;
 }
 
+.header__logo {
+    padding: 20px;
+}
+
 .nav {
     max-width: 1109px;
     overflow: hidden;
@@ -166,7 +170,7 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-    .nav a:not(:first-child) {
+    .nav a {
         display: none;
     }
 
