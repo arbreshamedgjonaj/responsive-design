@@ -104,7 +104,10 @@ main{
     }
     
 }
-
+.nav a.active {
+    background-color: #52B788;
+    color: white;
+  }
 .nav .icon {
     display: none;
   }
@@ -116,7 +119,7 @@ main{
     }
   }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .main__heading {
         font-size: 36px;
         padding-top: 40px;
